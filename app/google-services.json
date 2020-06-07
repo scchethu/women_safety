@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "572303878161",
+    "firebase_url": "https://gender-emotions.firebaseio.com",
+    "project_id": "gender-emotions",
+    "storage_bucket": "gender-emotions.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572303878161:android:b8c1cf6e0cd57bf08ea9b0",
+        "android_client_info": {
+          "package_name": "com.example.genderemotions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572303878161-m7l7td64iqopitlbr77dk457gschdmuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjSsN09qx4Eo1BnluTBiHEDDzgHN-z9nU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572303878161-m7l7td64iqopitlbr77dk457gschdmuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572303878161:android:46496e87fc97e80c8ea9b0",
+        "android_client_info": {
+          "package_name": "com.flutter_fcm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572303878161-m7l7td64iqopitlbr77dk457gschdmuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjSsN09qx4Eo1BnluTBiHEDDzgHN-z9nU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572303878161-m7l7td64iqopitlbr77dk457gschdmuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572303878161:android:ed065827535ff9148ea9b0",
+        "android_client_info": {
+          "package_name": "final_.student.womensafty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572303878161-orjvplma0173ifeb4tkf570h8okrnhb4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "final_.student.womensafty",
+            "certificate_hash": "b8e67dcd89d03d4fe2b268a456a4f8cacfa4c58d"
+          }
+        },
+        {
+          "client_id": "572303878161-m7l7td64iqopitlbr77dk457gschdmuh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjSsN09qx4Eo1BnluTBiHEDDzgHN-z9nU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572303878161-m7l7td64iqopitlbr77dk457gschdmuh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
