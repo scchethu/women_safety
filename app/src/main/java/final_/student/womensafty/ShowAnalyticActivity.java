@@ -26,7 +26,7 @@ RecyclerView rv;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_analytic);
         rv=findViewById(R.id.rv);
-        StringRequest stringRequest = new StringRequest(Request.Method.GET, constants.IP+constants.TYPE4+"date="+getIntent().getStringExtra("date"),
+        StringRequest stringRequest = new StringRequest(Request.Method.GET, constants.IP+constants.TYPE4+"sdate="+getIntent().getStringExtra("sdate")+"&edate="+getIntent().getStringExtra("edate"),
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {

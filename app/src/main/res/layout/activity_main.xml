@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="235dp"
-        android:text="Women Safety"
+        android:text="We Safe"
         android:textAlignment="center"
         android:textSize="30sp"
         android:textStyle="bold" />

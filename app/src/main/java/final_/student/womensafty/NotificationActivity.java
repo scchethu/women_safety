@@ -18,8 +18,16 @@ public class NotificationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification);
+        String msg=getIntent().getStringExtra("msg").replace("P","%");
+        msg=msg.replace("A","\uD83D\uDE20");
+        msg=msg.replace("H","\uD83D\uDE03");
+        msg=msg.replace("S","\uD83D\uDE25");
+        msg=msg.replace("N","\uD83D\uDE10");
+        msg=msg.replace("Z","\uD83D\uDE32");
+        msg=msg.replace("D","\uD83E\uDD22");
+        msg=msg.replace("F","\uD83D\uDE28");
         StringRequest stringRequest=new StringRequest(Request.Method.GET,
-                constants.IP + constants.TYPE3 + "msg="+getIntent().getStringExtra("msg"), new Response.Listener<String>() {
+                constants.IP + constants.TYPE3 + "msg="+ msg, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
 
